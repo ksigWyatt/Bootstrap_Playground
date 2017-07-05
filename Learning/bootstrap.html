@@ -8,16 +8,47 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <style type="text/css">
 	#buttons {
-		color: : red;
+		background-color: red;
+	}
+	#jumbo {
+		text-align: center;
 	}
 
 </style>
 </head>
 <body>
 <h1>Bootstrap Basics</h1>
+<div class="container">
+	<div id="jumbo" class="jumbotron">
+		<h1 id="jumboh1">This is a jumbotron</h1>
+		<p id="jumbop">What is a jumbotron?</p>
+		<button class="btn-success btn-lg">Lean More</button>
+	</div>
 
-<button id="buttons" class="btn btn-success btn-xs">Click me!</button>
-<!-- Disabled button -->
-<a href="https://google.com" class="btn btn-info" disabled="disabled">Google</a>
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+
+
 </body>
 </html>
