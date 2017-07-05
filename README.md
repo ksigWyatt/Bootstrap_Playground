@@ -1,2 +1,2 @@
-# Bootstrap_Playground
+# Bootstrap Playground
 Playground for Bootstrap Projects
